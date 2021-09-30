@@ -1,0 +1,15 @@
+.shop{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    .product-container{
+     margin-left: 40px;
+    border-right: 1px solid lightcoral;
+    margin-right: 15px;
+    }
+    .cart{
+border:1px solid gray;
+padding: 10px;
+margin:10px;
+border-radius: 5px;
+    }
+}

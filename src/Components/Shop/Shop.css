@@ -1,0 +1,34 @@
+.shop {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.shop .product-container {
+  margin-left: 40px;
+  border-right: 1px solid lightcoral;
+  margin-right: 15px;
+}
+.shop .cart {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.search-container {
+    background: grey;
+    text-align: center;
+    line-height: 40px;
+}
+
+.search-container input[type="text"] {
+    width: 60%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: black;
+}
+/*# sourceMappingURL=Shop.css.map */
